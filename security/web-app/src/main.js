@@ -17,7 +17,7 @@ let urls;
 if (currentHostname.indexOf('localhost') > -1) {
   urls = {
     api: 'http://localhost:8081/',
-    login: 'https://YOUR-URL/auth' // insert your http or https://<KeycloakURL>/auth
+    login: 'https://localhost/auth' // insert your http or https://<KeycloakURL>/auth
   }
   store.commit("setAPIAndLogin", urls);
 }
